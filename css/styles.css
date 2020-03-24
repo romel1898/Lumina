@@ -1,0 +1,2240 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	max-width: 100%;
+}
+/*start-index*/
+.header-topbar{
+  background-color:#356BB7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: white;
+  height: 40px; 
+  line-height: 40px;
+  /*margin-left: -80px;*/
+}
+#logo{
+	width: 270px;
+	height: 93px;
+	margin-left: -35px;
+	max-width: 100%;
+}
+
+
+#navbar {
+	font-family: 'Nunito', sans-serif;
+	color:rgb(86, 175, 213);
+	font-size: 11px;
+	font-weight: bold;
+	height: 113px;
+	margin-left: -20px;
+}
+#navbar ul li{
+	margin-left:-5px;
+	margin-top: 20px;
+}
+#navbar ul li a:hover{
+	color:#56AFDD; 
+
+}
+#text-home{
+	color:#828282; 
+	font-weight: normal;
+}
+#navbar button {
+	background: #2c6ab3;
+}
+.navbar-toggler .navbar-toggler-icon{
+	color: white;
+}
+#request{
+	border-radius: 20px;
+	width: 200px;
+	height: 44px;
+	background: #346ABC;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;  
+    text-align: center;
+    line-height: 42px; 
+}
+
+#request a {
+	color: white;
+}
+#request a:hover{
+	text-decoration: none;
+    color: white;
+}
+#request2{
+	
+    display: none;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+#up-contact{
+	
+	height: 690px;
+	background-image: url(../images/young-woman-smiling-being-examined-by-dentist-tinted.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#form-container{
+	margin-top: 10px;
+	background-color:#2c6ab3; 
+	width: 400px;
+	height:665px; 
+}
+#text{
+	margin-top: 80px;
+	margin-bottom: 32px;
+	font-size:27px;
+	font-weight: 700;
+	color:#ffffff;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;  
+}
+#form-top{
+	width: 350px;
+}
+#form-top input, select{
+	border-radius: 3px;
+	border: none;
+	text-align: center;
+	color:#999999;
+ 
+}
+.radio-btn{
+	width: 100px;
+}
+
+#form-top label{
+	font-weight:700;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	color:white;  
+}
+#form-top button{
+	border: none;
+	background:#0e68b8;
+	color:white;
+	margin-top: 57px;
+	margin-left: 140px;
+	width:82px;
+	height:49px;
+	cursor: pointer;   
+}
+.input-width input{
+	height: 43px;
+	width:156px; 
+	
+}
+#text-inside{
+/*border:1px solid red;*/
+	width: 600px;
+	position: relative;
+	top: 200px;
+}
+
+#first-panel{
+	padding: 10px;
+	text-align: center;
+	color:rgb(153, 153, 153)
+
+}
+#second-panel a{
+	text-decoration: none;
+	color: white;
+	background-color:#356BB7;
+	border-radius: 20px;
+	padding: 10px;
+	width: 193px;
+	height: 46px;
+	font-size: 18px;
+	font-weight: 400; 
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 190px;
+	margin-bottom: 31px; 
+
+}
+#first-panel p{
+	width: 630px;
+	margin: auto; 
+	font-family: 'Open Sans', sans-serif;
+}
+#second-panel img{
+	width: 400px; 
+	height: 250px; 
+	margin-left: 50px; 
+	max-width: 100%; 
+}
+#second-panel p{
+	 width: 480px;
+	 margin-left: 22px;
+	 margin-top: 30px;
+}
+#linea{
+	width: 500px; 
+	height: 3px;
+	margin-left: 18px;
+	margin-top:32px; 
+}
+#services{
+	padding: 10px;
+}
+#our-services{
+	/*border: 1px solid red;*/
+	padding: 10px;
+	margin-top: 38px;
+	text-align: center;
+}
+#our-services h1{
+	font-family: 'Lato', sans-serif;
+	color:rgb(124, 124, 124);
+	font-weight: 700;
+	font-size: 40px;
+
+}
+#our-services a{
+	font-size: 18px;
+	color:rgb(53, 107, 183);
+	text-decoration: none; 
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+#our-services a:hover{
+	border-bottom: 1px solid rgb(53, 107, 183);
+
+}
+#services2{
+	text-align: center;
+	margin-top: 40px;
+}
+#services2 h5{
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	color: rgb(51, 51, 51);
+	margin-bottom: 50px;
+}
+#services2 p{
+	color:rgb(153, 153, 153);
+	font-size: 14px; 
+	font-family: 'Open Sans', sans-serif;
+}
+#services2 ul{
+	list-style: none;
+}
+.seemore{
+	font-size: 14px;
+	width: 184px;
+	height: 54px;	
+    background: #1E73BE;
+	margin:auto; 
+
+}
+.seemore i{
+	color:white; 
+}
+.seemore a{
+ font-family: 'Lato', sans-serif;
+	color: white;
+	line-height: 55px;
+}
+.seemore i{
+	margin-right: 10px;
+}
+.seemore:hover{
+	background: #1E73BE;
+	opacity: 0.9;
+	cursor: pointer;
+}
+#third-panel{
+	background-color:#2c6ab3;
+	line-height: 65px;
+}
+#third-panel ul li {
+	/*border: 1px solid red;*/ 
+	width: 490px; 
+	height: 80px;
+	list-style: none;
+	background-color:white;
+	padding: 10px;
+	/*text-align: center;*/
+}
+#third-panel span{
+	margin-left:0px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #464646;	
+
+}
+#third-panel ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#third-panel i{
+	border: 1px solid #d3d3d3;
+	line-height: 20px;
+	width: 35px;
+	height: 25px;
+	border-radius: 10px;
+	text-align: center;
+	color:#0072ba; 
+}
+#third-panel i:hover{
+	color:white; 
+	background-color:#0072ba; 
+
+}
+.pegado{
+	margin-left: 55px;
+}
+#location{
+	text-align: center;
+	margin-top: 50px;
+}
+#location ul{
+	list-style: none;
+}
+#location iframe{
+	max-width: 100%;
+}
+#ourlocation h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	font-weight:700;
+	color:#183ca0;
+}
+#ourlocation p{
+ font-size: 18px;
+ font-family: 'Nunito', sans-serif;
+ font-weight:700;
+	color:#183ca0;
+}
+#maps h5{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	font-weight:700;
+	margin-bottom: 50px;
+	
+}
+#testimonials{
+	background-image: url(../images/into-usf-living-in-tampa.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:950px;
+	margin-top: 50px;
+	text-align: center;
+}
+#testimonials-text h4{
+	color:white;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+#testimonials-text{
+	margin-top: 35px;
+	/*border: 1px solid red;*/
+	padding: 100px;
+}
+#testimonials-text p{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.orange-text i{
+	color:#ffff00;
+}
+.testimonials-cards{
+	margin-top: 20px;
+
+}
+.testimonials-cards h4{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 25.6px;
+}
+.testimonials-cards h6{
+
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.testimonials-cards p{
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+#percentoff{
+	margin-top: 50px;
+
+}
+#percentoff img{
+	max-width: 100%;
+	margin-left: -28px;
+}
+
+#getdiscount h5{
+	font-weight: 400;
+	color:#13141c;
+	font-size: 22px;
+	font-family: 'Questrial', sans-serif;
+}
+#getdiscount input{
+	margin: auto;
+	width:512px;
+	height:43px;
+	border: 1px solid #71fbd4;  
+}
+#getdiscount{
+	margin-top: 50px;
+}
+#container{
+	border-top:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+}
+#btn-mostrar{
+	border: none;
+	border-radius: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	width: 210px;
+	height: 45px;
+	background: #2c6ab3;
+	cursor: pointer;
+	margin-top: 10px;
+}
+#percentimg2{
+	display: none;
+}
+#getdiscount form{
+	margin-bottom: 10px;
+	display: none;
+}
+#second-text{
+	margin-bottom: 30px;
+	margin-top: -10px;
+}
+#btn-send{
+	width: 514px;
+	height: 48px;
+	background: #2c6ab3;
+	cursor: pointer;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+footer{
+	background-color: #6a7279;
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+
+}
+footer .container{
+	padding: 10px;
+
+}
+footer h6{
+	color:#ffffff;
+	font-family: 'Nunito', sans-serif;
+	color: 18px;
+	font-weight: 700;
+
+}
+#bottom-nav{
+	margin-top: 50px;
+
+}
+#bottom-nav a{
+	color:#c1c7ce;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	margin-left: -8px; 
+
+}
+
+#bottom-nav a::before{
+	content:">";
+	font-weight:bold;
+	position: relative;
+	left:-11px;
+
+}
+#bottom-nav a:hover{
+	color: white;
+	font-weight: bold;
+}
+#bottom-form{
+	margin-top: 50px;
+}
+#bottom-form input{
+	margin-bottom: 10px;
+}
+#bottom-form button{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#callus{
+	text-align: center;
+	margin-top: 50px;
+}
+#callus p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#f2f2f2;
+	font-weight: 400;
+}
+
+#callus h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 26px;
+	color: #ffffff;
+	font-weight: 700;
+}
+#callus a{
+	background-color:#2c6ab3; 
+	width:195px;
+	height: 47px;
+	color:#ffffff;
+	font-weight:700;
+	font-size:14px;  
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	border-radius: 25px;
+}
+#callus a:hover{
+	opacity:0.7; 
+}
+/*end-index*/
+/*start-aboutus*/
+#welcomepanel{
+	background-image:url(../images/welcome.jpg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+
+}
+#welcomepanel .container{
+	/*border:1px solid red;*/
+	position: relative;
+	top: 206px;
+	left: 0px;
+	width: 800px;
+
+}
+#welcomepanel h6{
+	font-size: 18px;
+	color: white;
+	font-weight:700;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+#aboutusline{
+	width: 700px;
+	height: 1px;
+	background-color:#ffffff;
+	margin: auto; 
+	margin-top: 20px;
+}
+#information{
+	margin-top: 30px;
+}
+#information h1{
+	font-size:30px;
+	font-family: 'Nunito', sans-serif;
+	color:rgb(51, 51, 51);
+}
+#information p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color:rgb(153, 153, 153);
+}
+#information ul{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color:rgb(153, 153, 153);
+}
+#ourphilosophy{
+	/*border: 1px solid red;*/
+	margin-top: -500px;
+}
+/*end-aboutus*/
+/*start-gallery*/
+#lutz-gallery img{
+	border-radius: 5px;
+}
+#lutz-gallery h1{
+	color: rgb(70, 70, 70);
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	text-align: center;
+}
+.linea3{
+	background-color:#eeeeee;
+	height: 1px;
+	width: 940px; 
+	margin: auto;
+	margin-top: 37px;
+	margin-bottom: 42px;
+}
+#lutz-gallery ul li{
+		list-style: none;
+}
+#brandon-gallery h1{
+	color: rgb(70, 70, 70);
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*end-gallery*/
+/*start-emergency*/
+#emergency p{
+	color:#999999; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: justify;
+}
+#emergency h3{
+	font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color:#333333;
+	font-size: 30px;
+}
+#emergencydental {
+	text-align: center;
+}
+#emergencydental img{
+	width: 151px;
+	height: 158px;
+}
+.answer{
+	font-family: 'Open Sans', sans-serif;
+	color:#999999; 
+	font-weight: 400; 
+	font-size: 16px; 
+}
+.nav-tabs{
+	background-color:#2a68b8;
+	height: 60px;
+	line-height: 50px;
+	padding: 5px;
+}
+.nav-tabs li a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight:400;	
+}
+.nav-tabs a:hover{
+	border: none;
+	background-color:white;
+	color: black; 
+}
+
+#img img{
+	width: 390px;
+	height: 390px;
+	margin-left: 100px;
+}
+#emergencydental ul li{
+	list-style: none;
+}
+#emergencydental h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color:rgb(10, 10, 10);
+	font-size: 49px;
+}
+#emergencydental h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	color:rgb(70, 70, 70);
+	font-weight:700;
+
+}
+#emergencydental p{
+	color:#999999; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: justify;
+}
+#linea4{
+	width: 800px;
+	height: 1px;
+	background-color:#eeeeee;
+	margin: auto;
+}
+#callus2{
+	text-align: center;
+	margin-top: 50px;
+}
+#callus2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#828282;
+	font-weight: 400;
+}
+
+#callus2 h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 26px;
+	color: #0a0a0a;
+	font-weight: 700;
+}
+#callus2 a{
+	background-color:#2c6ab3; 
+	width:195px;
+	height: 47px;
+	color:#ffffff;
+	font-weight:700;
+	font-size:14px;  
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	border-radius: 25px;
+}
+#callus2 a:hover{
+	opacity:0.7; 
+}
+#contactus{
+	margin-top: 20px;
+}
+#contactus input{
+	background-color:#F9F9F9; 
+}
+#contactus h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color:#333333;
+	text-align: left;
+}
+#emergencypanel2{
+	margin-top: 50px;
+}
+#emergencypanel2 ul{
+	list-style: none;
+}
+#emergencypanel2 h1{
+	color:#56afd5;
+	font-weight:700;
+	font-size: 15px; 
+	font-family: 'Open Sans', sans-serif;
+}
+#emergencypanel2 h3{
+	color:#999999;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+}
+#emergencypanel2 p{
+	font-weight: 400;
+	font-size: 14px;
+	color:#999999; 
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	padding: 10px;
+	margin-left: -10px;
+}
+#emergencypanel2 ol li{
+	font-weight: 400;
+	font-size: 13px;
+	color:#999999; 
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	padding: 10px;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+
+.numberlist{
+	font-weight: 700;
+	font-size: 14px;
+	color:#999999; 
+	font-family: 'Open Sans', sans-serif;
+}
+#emergencypanel2 a{
+	color:#999999; 
+}
+#emergencypanel2 a:hover{
+	text-decoration: none;
+	color: blue;
+}
+#emergencypanel2 h2{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	color:rgb(51, 51, 51);
+	font-weight: 400;
+}
+#emergencypanel2 i{
+	font-weight: 700;
+	color:rgb(153, 153, 153);
+	font-size: 16px;
+
+
+}
+#locations h3{
+	
+	font-family: 'Nunito', sans-serif;
+}
+#locations h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size:14px;
+}
+#locations ul{
+	list-style: none;
+
+}
+#locations p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+#locations a{
+	color:black;
+	font-size: 14px;	
+}
+#locations a:hover{
+	text-decoration: none;
+}
+#ourservices h3{
+	
+	font-family: 'Nunito', sans-serif;
+}
+#ourservices ul {
+	list-style: none;
+	margin-left: 20px;
+}
+#ourservices ul li{
+	margin-bottom: 10px;
+}
+#ourservices ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-decoration: none;
+	color:#00608d; 
+}
+#ourservices ul li::before{
+	content:">";
+	color:#999999;
+
+}
+.beneficios{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color:#999999;
+	font-weight: 400;
+
+}
+
+.beneficios::before{ 
+content: "•"; 
+color:#999999;
+margin-right: 5px;
+font-size: 20px;
+}
+#green-space{
+	color: black;
+	background:#d4ffc1;
+	padding: 15px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+/*end-services*/
+/*start-faq*/
+#faq h1{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	color:#333333;
+	font-size:68px; 
+}
+#faq h3{
+	font-size: 30px;
+	font-weight: 700;
+	color:#464646;
+	font-family: 'Nunito', sans-serif;
+}
+#faq .btn-link{
+    color:#999999;
+    font-weight: 700;
+    font-size:16px; 
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.card-body{
+	color:#9a9a9a;
+	font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+
+}
+#linea5{
+	background-color:#2c6ab3;
+	width:810px;
+	height:3px;  
+}
+#questions h3{
+	color:#333333;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+}
+#questions p{
+	font-family:'Open Sans', sans-serif;
+	color:#999999;
+	font-size: 14px;
+	text-align: center;
+	/*border:1px solid red;*/
+	width: 558px;
+	margin: auto;
+	padding: 10px; 
+ 	margin-bottom: 20px;
+}
+#questions form{
+	width: 542px;
+	margin: auto;
+}
+#btn-faq{
+	border: none;
+	width:126px;
+	height:41px;
+	background:#2a68b8;
+	color:white; 
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left:200px; 
+}
+#btn-faq:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+#contactus input{
+	margin-top: 10px;
+	border: none;
+}
+#contactus button{
+	border: none;
+	width:126px;
+	height:41px;
+	background:#2a68b8;
+	color: white;
+	margin-top: 10px; 
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	border-radius: 20px;
+	margin-left: 70px;
+}
+/*end-faq*/
+/*start-service*/
+#services ul{
+	list-style: none;
+}
+#services h3{
+	font-family: 'Nunito', sans-serif;
+	font-size:20px;
+	font-weight:700; 
+	color:#464646; 
+	margin-bottom:25px;
+}
+#services a{
+	color:#3066b2; 
+	font-weight: 700;
+}
+#services img{
+	margin-bottom: 30px;
+	border-radius:5px;  
+}
+#services h3:hover{
+	color:#356bb7;
+
+}
+#services p{
+	color:#999999;
+	color:14px;
+	font-family:'Open Sans', sans-serif;
+ 
+}
+#services a{
+	text-decoration: none;
+}
+.text-link::after{
+	content:"\f105";
+	transition:all,0.1s;
+	font-family: "FontAwesome";
+	font-size: 14px;
+	margin-left: 8px;
+	font-weight: 700;
+}
+.text-link:hover:after{
+	margin-left:5px;
+}
+/*end-services*/
+/*start-contact*/
+#contact-page h3{
+	color:#9a9a9a; 
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+	font-weight:700;
+	text-align: center;
+}
+#contact-page h4{
+	color:#cecece;
+	font-size:20px;
+	font-family: 'Nunito', sans-serif;
+ 	font-weight:700;
+ 	text-align: center; 
+}
+#linea7{
+	background:#EEEEEE;
+	width: 300px;
+	height: 1px; 
+	margin:auto;
+	margin-bottom: 24px;
+	margin-top:40px; 
+}
+#left-contact span{
+	font-family:'Open Sans', sans-serif;
+	font-style:italic;
+	font-weight:700;
+	color:#919191;
+	font-size:13px; 
+	margin-left: -20px; 
+}
+#contact-page input{
+	margin: 0px 20px;
+	border:1px solid #cecece; 
+	background:#F9F9F9;  
+	border-radius:0px; 
+	border:none; 
+}
+#contact-page label{
+	color:#999999;
+	font-size: 14px;
+	font-weight: 700; 
+	font-family:'Open Sans', sans-serif;
+}
+#left-contact label::after{
+	content:"*"; 
+	color:#790000; 
+	margin-left:2px; 
+}
+#contact-page p{
+	font-family:'Open Sans', sans-serif;
+	color:#999999;
+	font-weight:700;
+	font-size:11px;
+	margin-left:20px;  
+}
+#contact-page select{
+	color:#999999;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:400;  
+}
+#contact-date label{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#contact-date input{
+	margin-left:50px;
+}
+#contact-time .row{
+	margin-top: 18px;
+}
+#contact-time input{
+	width: 20px; 
+	margin-top:3px; 
+}
+#contact-date label::after{
+	content:"*"; 
+	color:#790000; 
+	margin-left:2px; 
+}
+#preferences-appoiments::after{
+	content:"*"; 
+	color:#790000; 
+	margin-left:2px; 
+}
+#answer{
+	display: none;
+}
+#answer label{
+	margin-left:18px;
+}
+#answer input{
+	width: 412px;
+}
+#date label{
+	margin-left:50px;
+}
+#days{
+	margin-left:25px;
+}
+#days label {
+	margin-left: -20px;
+}
+#jueves{
+	margin-left:20px;
+}
+#jueves label {
+	margin-left:-18px; 
+}
+#hoandmi input{
+	width: 47px;
+}
+#mensaje2{
+	background: #EEEEEE;
+}
+#mensaje3{
+	margin: auto;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 200px;
+	background-color:#FFFFFF;
+	width: 300px;
+	height: 180px;
+	padding: 15px;
+	border-radius: 10px;
+	transition: 1s all;
+
+}
+#mensaje3 h1{
+	font-size: 18px;
+	margin-bottom: 40px; 
+
+}
+#mensaje3 a{
+	/*border: 1px solid red;*/
+	border-radius: 10px;
+	padding: 10px;
+	background-color:#346ABC;
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid lightblue;
+}
+#mensaje3:hover{
+	background:#346ABC;
+	color: white;
+}
+#mensaje3 a:hover{
+	background: white;
+	color: black;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	body{
+		width: 100%;
+	}
+	#text-home{
+		font-weight: 700;
+		color:red; 
+	}
+	.header-topbar{
+		height:30px;
+		text-align: center;
+    }
+    .header-topbar p{
+    	font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		margin-left: -40px;
+    }
+
+	#navbar{
+		margin-top: 10px;
+		position:relative;
+		height: 100%;
+		
+	}
+	#navbar li{
+		background-color:#356BB7;	
+		border-bottom: 1px solid  #6D72F6;
+	}
+	#navbar ul li a{
+		color: white;
+		font-weight: 700;
+		margin-left: 20px;
+		font-size: 18px;
+		font-family: 'Nunito', sans-serif;
+
+	}
+	#navbar ul li{
+		margin-top: 0px;
+	}
+	.dropdown-menu{
+		background:#356BB7; 
+	 }
+	.dropdown-menu a:hover{
+		background: none;
+	}
+	#botter div a{
+		border-bottom: none;
+	} 
+	#logo{
+		margin-left: 10px;
+		max-width: 100%;
+		width: 200px;
+		height: 90px;
+	}
+	#request{
+		display: none;
+		
+	}
+	#request2{
+	display: block;
+	border-radius: 20px;
+	width: 90%;
+	height: 44px;
+	background: #346ABC;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;  
+    text-align: center;
+    line-height: 42px; 
+    margin-top: 10px;
+	}
+	#request2 a{
+		color: white;
+		text-decoration: none;
+	}
+	.collapse{
+		/*margin-left: -20px;*/
+		/*width: 40px;*/
+	} 
+	.navbar button{
+		margin-right: -20px;
+
+	}
+	
+	#up-contact{
+		height: 1500px;
+		 
+		background-image: none;
+		background-color: #004ba1;
+	}
+	#form-container{
+	
+	margin-top: 10px;
+	background-color:#2c6ab3; 
+	width: 345px;
+	height:1250px; 
+	
+}
+   #text{
+   	margin-top: 10px;
+   	margin-left: -30px;
+   	width:300px;
+   	
+   }
+   .radio-btn{
+   	width: 150px;
+   }
+   .radio-btn2{ 
+   	width: 150px;
+   	
+   }
+   .select-btn{
+   	width: 150px;
+    
+   }
+   #form-top{
+    margin-left: 15px;
+    width: 300px;
+    
+   }
+   .input-width input{
+   	width: 269px;
+   	height:52px; 
+   	
+   }
+   .input-width{
+   	
+   	width:269px; 
+   }
+   #form-top button{
+   	background:white;
+   	width:279px;
+   	height:56px;
+   	margin-left: -5px;  
+   	color:#999999;
+   	border-radius:3px;
+   	/*border: 1px solid red;*/
+
+   }
+	
+	#text-inside{
+		width: 340px;
+		position: relative;
+		top: 0px;
+		left: 5px;
+	}
+	#text-inside h5{
+		text-align: center;
+		padding: 10px;		
+	}
+	#text-inside h3{
+		font-family: 'Nunito', sans-serif;
+		font-weight: bold;
+	}
+	#text-inside h3 span{
+		font-size: 25px;
+		font-weight: 700;
+	}
+	
+	#first-panel p{
+		width: 100%;
+		height: 200px;
+		padding: 10px;
+		margin-left: 5px;
+		margin-bottom: 30px;
+	}
+	#second-panel{
+		width:100%;
+	}
+	#second-panel img{
+		margin-left:-5px;
+		width: 100%;
+
+	}
+	#second-panel h1{
+		width:100%;
+		margin-left: 95px;
+	}
+	#second-panel p{
+		width:100%;
+		margin-left:95px;
+		padding: 10px;
+	}
+	#second-panel a{
+		margin-left: 169px;
+		/*width: 200px;*/
+		display: inline-block;
+		text-align: center;
+
+	}
+	#linea{
+		width:100%;
+		height: 1px;
+		margin-left: 95px; 
+	}
+	#third-panel{
+	   line-height: normal;
+	   text-align: center;
+	   width:100%; 
+	
+}
+
+    #third-panel ul li {
+ 	   width: 300px;
+   	   height: 80px;
+   	   margin-left: -25px;
+    }
+   
+    #third-panel i{
+ 	   margin-left: -15px;
+    }
+    #fa i{
+ 	   margin-left: -55px;
+    }
+    #fa{
+ 	   line-height: 55px;
+    }
+    #a{
+    	margin-right:10px; 
+
+    }
+    #testimonials{
+    	height: 1700px;
+    }
+
+   #percentoff img{
+		margin: auto;
+	}
+	#percentoff button{
+		margin-bottom: 50px;
+	}
+	#mostrar input{
+	width: 291px;
+	}
+	#btn-send{
+		width: 341px;
+		height: 45px
+	}
+    #bottom-form{
+    	width: 370px;
+    }
+    #bottom-form button{
+		margin-left: 0px;
+	}
+	
+	#bottom-nav {
+		width: 300px;
+		margin-left:8px; 
+		
+	}
+	footer .container{
+		width: 350px;
+		margin-right: 20px;
+		/*border: 1px solid red;*/
+
+	}
+	#callus{
+		margin:auto;
+		padding: 10px;
+	}
+	#callus a{
+		height: 63px;
+		line-height:40px;
+	}
+	
+	#welcomepanel .container{
+		position: relative;
+		top: 240px;
+		left: -5px;
+		width: 300px;
+	}
+	#welcomepanel h6{
+		font-size: 18px;
+		color: white;
+		font-weight:700;
+		font-family: 'Nunito', sans-serif;
+		text-align: center;
+
+	}
+	#aboutusline{
+		width: 320px;
+		height:2px;
+		background-color:#ffffff;
+		margin-left:-23px;  
+		margin-top: 55px;
+		
+	}
+	#information img{
+		display: none;
+	}
+	#information ul{
+		margin-left: 15px;
+	}
+	#ourphilosophy{
+		margin-top: 0px;
+	}
+	/*start-gallery*/
+	.linea3{
+		width: 320px;
+	}
+	/*end-gallery*/
+	/*start emergency and services*/
+	#img{
+		display: none;
+	}
+	#linea4{
+		width: 320px;
+	}
+ /*start-faq*/
+    #linea5{
+    	width: 300px;
+    }
+    #questions p{
+    	width: 300px;
+    }
+    #questions form{
+    	width: 300px;
+    }
+    #btn-faq{
+    	margin-left:85px; 
+    }
+    #contactus button{
+    	margin:auto;
+    	margin-top: 20px;
+    	margin-bottom: 10px;
+    }
+    #services img{
+    	width: 500px;
+    }
+    #preferences-appoiments{
+    	margin-left:-10px;
+    }
+    #days{
+    	margin-left:20px;
+    }
+    #jueves{
+	margin-left:0px;
+}
+#jueves label {
+	margin-left:-18px; 
+}
+#date{
+	margin-left:-13px;
+}
+#contact-date input{
+	width: 200px; 
+}
+#contact-date label{
+	margin-left: 35px;
+}
+#hoandmi input{
+	width: 47px;
+}
+#right-contact textarea{
+	width: 274px;
+	height: 74px;
+	margin-left:-18px;
+}
+#right-contact button{
+	margin-left: 100px;
+}
+#answer input{
+	width: 300px
+}
+}
+
+@media screen and (min-width:481px) and ( max-width: 767px) and (orientation: landscape) {
+	.header-topbar{
+		height:30px;
+		text-align: center;
+    }
+    .header-topbar p{
+    	font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		margin-left:-110px;
+		
+		width:100%;
+    }
+	#navbar{
+		margin-top: 10px;
+		position:relative;
+		height: 100%;
+		
+	}
+	#navbar li{
+		background-color:#356BB7;	
+		border-bottom: 1px solid  #6D72F6;
+	}
+	#navbar ul li a{
+		color: white;
+		font-weight: 700;
+		margin-left: 20px;
+		font-size: 18px;
+		font-family: 'Nunito', sans-serif;
+
+	}
+	#navbar ul li{
+		margin-top: 0px;
+	}
+	.dropdown-menu{
+		background:#356BB7; 
+	 }
+	.dropdown-menu a:hover{
+		background: none;
+	}
+	#botter div a{
+		border-bottom: none;
+	} 
+	#logo{
+		margin-left: 10px;
+		max-width: 100%;
+		width: 200px;
+		height: 90px;
+	}
+	#request{
+		display: none;
+		
+	}
+	#request2{
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 44px;
+	background: #346ABC;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;  
+    text-align: center;
+    line-height: 42px; 
+    margin-top: 10px;
+	}
+	#request2 a{
+		color: white;
+		text-decoration: none;
+	}
+	.navbar button{
+		margin-right: -20px;
+
+	}
+	
+	#up-contact{
+		height: 1500px;
+		 
+		background-image: none;
+		background-color: #004ba1;
+	}
+	#form-container{
+	
+	margin-top: 10px;
+	background-color:#2c6ab3; 
+	width: 700px;
+	height:1250px; 
+	
+}
+   #text{
+   	margin-top: 10px;
+   	margin-left: -30px;
+   	width:400px;
+   	
+   }
+   .radio-btn{
+   	width: 150px;
+   }
+   .radio-btn2{ 
+   	width: 150px;
+   	
+   }
+   .select-btn{
+   	width: 150px;
+    
+   }
+   #form-top{
+    margin-left: 15px;
+    width: 500px;
+    
+   }
+   .input-width input{
+   	width: 450px;
+   	height:52px; 
+   	
+   }
+  
+   #form-top button{
+   	background:white;
+   	width:450px;
+   	height:56px;
+   	margin-left: -5px;  
+   	color:#999999;
+   	border-radius:3px;
+   	/*border: 1px solid red;*/
+
+   }
+	
+	#text-inside{
+		width: 340px;
+		position: relative;
+		top: 0px;
+		left: 5px;
+	}
+	#text-inside h5{
+		text-align: center;
+		padding: 10px;		
+	}
+	#text-inside h3{
+		font-family: 'Nunito', sans-serif;
+		font-weight: bold;
+	}
+	#text-inside h3 span{
+		font-size: 25px;
+		font-weight: 700;
+	}
+	
+	#first-panel p{
+		width: 100%;
+		height: 200px;
+		padding: 10px;
+		margin-left: 5px;
+		margin-bottom: 30px;
+	}
+	#second-panel{
+		width:100%;
+	}
+	#second-panel img{
+		margin-left:-5px;
+		width: 100%;
+
+	}
+	#second-panel h1{
+		width:100%;
+		margin-left: 95px;
+	}
+	#second-panel p{
+		width:100%;
+		margin-left:95px;
+		padding: 10px;
+	}
+	#second-panel a{
+		margin-left: 270px;
+		/*width: 200px;*/
+		display: inline-block;
+		text-align: center;
+
+	}
+	#linea{
+		width:100%;
+		height: 1px;
+		margin-left: 95px; 
+	}
+	#third-panel{
+	   line-height: normal;
+	   text-align: center;
+	   width:100%; 
+	   line-height: 50px;
+	
+}
+
+    #third-panel ul li {
+ 	   width: 630px;
+   	   height: 80px;
+   	   margin-left: -60px;
+    }
+   #third-panel span{
+   	font-size: 20px;
+   }
+    #third-panel i{
+ 	   margin-left: -15px;
+    }
+    #fa i{
+ 	   margin-left: -55px;
+    }
+    #fa{
+ 	   line-height: 55px;
+    }
+    #a{
+    	margin-right:10px; 
+
+    }
+    #testimonials{
+    	height: 1700px;
+    }
+
+   #percentoff img{
+		margin: auto;
+	}
+	#percentoff button{
+		margin-bottom: 50px;
+	}
+	#mostrar input{
+	width: 291px;
+	}
+	#btn-send{
+		width: 341px;
+		height: 45px
+	}
+    #bottom-form{
+    	width: 920px;
+    }
+    #bottom-form button{
+		margin-left: 0px;
+	}
+	
+	#bottom-nav {
+		width: 300px;
+		margin-left:8px; 
+		
+	}
+	footer .container{
+		width:1000px;
+		margin-left:0px;
+		
+	}
+	#callus{
+		margin:auto;
+		padding: 10px;
+	}
+	#callus a{
+		height: 63px;
+		line-height:40px;
+	}
+	
+	#welcomepanel .container{
+		position: relative;
+		top: 240px;
+		left: -5px;
+		width: 300px;
+	}
+	#welcomepanel h6{
+		font-size: 18px;
+		color: white;
+		font-weight:700;
+		font-family: 'Nunito', sans-serif;
+		text-align: center;
+
+	}
+	#aboutusline{
+		width: 320px;
+		height:2px;
+		background-color:#ffffff;
+		margin-left:-23px;  
+		margin-top: 55px;
+		
+	}
+	#information img{
+		display: none;
+	}
+	#information ul{
+		margin-left: 15px;
+	}
+	#ourphilosophy{
+		margin-top: 0px;
+	}
+	/*start-gallery*/
+	.linea3{
+		width: 320px;
+	}
+	/*end-gallery*/
+	/*start emergency and services*/
+	#img{
+		display: none;
+	}
+	#linea4{
+		width: 320px;
+	}
+ /*start-faq*/
+    #linea5{
+    	width:100%;
+    }
+    #questions p{
+    	width: 300px;
+    }
+    #questions form{
+    	width: 300px;
+    }
+    #btn-faq{
+    	margin-left:85px; 
+    }
+    #contactus button{
+    	margin:auto;
+    	margin-top: 20px;
+    	margin-bottom: 10px;
+    }
+    #services img{
+    	width: 500px;
+    }
+    #preferences-appoiments{
+    	margin-left:-10px;
+    }
+    #days{
+    	margin-left:20px;
+    }
+    #jueves{
+	margin-left:0px;
+}
+#jueves label {
+	margin-left:-18px; 
+}
+#date{
+	margin-left:-13px;
+}
+#contact-date input{
+	width: 200px; 
+}
+#contact-date label{
+	margin-left: 35px;
+}
+#hoandmi input{
+	width: 47px;
+}
+#right-contact textarea{
+	width: 274px;
+	height: 74px;
+	margin-left:-18px;
+}
+#right-contact button{
+	margin-left: 100px;
+}
+#answer input{
+	width: 300px
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+	.header-topbar{
+		height:30px;
+		text-align: center;
+    }
+    .header-topbar p{
+    	font-weight: 400;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		width: 400px;
+    }
+	#navbar{
+		margin-top: 10px;
+		position:relative;
+		height: 100%;
+		
+	}
+	#navbar li{
+		background-color:#356BB7;	
+		border-bottom: 1px solid  #6D72F6;
+	}
+	#navbar ul li a{
+		color: white;
+		font-weight: 700;
+		margin-left: 20px;
+		font-size: 18px;
+		font-family: 'Nunito', sans-serif;
+
+	}
+	#navbar ul li{
+		margin-top: 0px;
+	}
+	.dropdown-menu{
+		background:#356BB7; 
+	 }
+	.dropdown-menu a:hover{
+		background: none;
+	}
+	#botter div a{
+		border-bottom: none;
+	} 
+	#logo{
+		margin-left: 10px;
+		max-width: 100%;
+		width: 200px;
+		height: 90px;
+	}
+	#request{
+		display: none;
+		
+	}
+	#request2{
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+	height: 44px;
+	background: #346ABC;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;  
+    text-align: center;
+    line-height: 42px; 
+    margin-top: 10px;
+	}
+	#request2 a{
+		color: white;
+		text-decoration: none;
+	}
+	.navbar button{
+		margin-right: -20px;
+
+	}
+	
+	#up-contact{
+		height: 1000px;
+		background-image: none;
+		background-color: #004ba1;
+	}
+	#form-container{
+	margin-top:300px;
+	margin-left: -400px; 
+}
+   #text{
+   	margin-top: 10px;
+   	margin-left:120px;
+   	width:400px;
+   	
+   }
+   .radio-btn{
+   	width: 150px;
+   }
+   .radio-btn2{ 
+   	width: 150px;
+   	
+   }
+   .select-btn{
+   	width: 150px;
+    
+   }
+   #form-top{
+     height: 750px;
+     margin-left: -85px;
+     width: 700px;
+     background-color:#356BB7;
+     margin-top: -70px;
+   }
+   .input-width input{
+   	width: 300px;
+   	height:52px; 
+   }
+   #form-top button{
+   	background:#0e68b8;
+   	/*width:450px;*/
+   	height:56px;
+   	margin-left: 300px;  
+   	color:white;
+   	border-radius:3px;
+   	/*border: 1px solid red;*/
+   }
+	#text-inside{
+		width: 500px;
+		position: relative;
+		height: 200px;
+		top: 0px;
+		left: 5px;
+	}
+	#text-inside h5{
+		text-align: center;
+		padding: 10px;
+		margin-left: 200px;	
+
+	}
+	#text-inside h3{
+		font-family: 'Nunito', sans-serif;
+		font-weight: bold;
+		width: 600px;
+	}
+	#text-inside h3 span{
+		font-size: 25px;
+		font-weight: 700;
+	}
+	
+	#first-panel p{
+		width: 100%;
+		height: 200px;
+		padding: 10px;
+		margin-left: 5px;
+		margin-bottom: 30px;
+
+	}
+	#second-panel{
+		width:100%;
+	}
+	#second-panel img{
+		margin-left:-5px;
+		width: 100%;
+		height: 100%;
+
+	}
+	#second-panel h1{
+		width:100%;
+		margin-left: 95px;
+		
+	}
+	#second-panel p{
+		width:100%;
+		margin-left:95px;
+		padding: 10px;
+
+	}
+	#second-panel a{
+		margin-left: 350px;
+		/*width: 200px;*/
+		display: inline-block;
+		text-align: center;
+
+	}
+	#linea{
+		width:100%;
+		height: 1px;
+		margin-left: 95px; 
+	}
+	
+	#third-panel{
+	   line-height: normal;
+	   text-align: center;
+	   width:100%; 
+	   line-height: 50px;
+		
+    }
+
+    	
+	#third-panel li{
+		display: block;
+	}
+    #third-panel ul li {
+ 	   width: 640px;
+   	   height: 80px;  
+    }
+   #third-panel span{
+   	font-size: 20px;
+   }
+    #third-panel i{
+ 	   margin-left: -15px;
+    }
+  
+   .pegado{
+   	margin-left: 0px;
+   }
+
+    #testimonials{
+    	height: 1700px;
+    }
+
+   #percentoff img{
+		margin: auto;
+	}
+	#percentoff button{
+		margin-bottom: 50px;
+	}
+	#mostrar input{
+	width: 291px;
+	}
+	#btn-send{
+		width: 341px;
+		height: 45px
+	}
+    #bottom-form{
+    	width: 1020px;
+    	
+    }
+    #bottom-form button{
+		margin-left: 200px;
+	}
+	
+	#bottom-nav {
+		width: 300px;
+		margin-left:8px; 
+		
+	}
+	footer .container{
+		width:1000px;
+		margin-left:0px;
+	
+		
+	}
+	#callus{
+		margin:auto;
+		padding: 10px;
+	}
+	#callus a{
+		height: 63px;
+		line-height:40px;
+	}
+	
+	#welcomepanel .container{
+		position: relative;
+		top: 240px;
+		left: -5px;
+		width: 300px;
+	}
+	#welcomepanel h6{
+		font-size: 18px;
+		color: white;
+		font-weight:700;
+		font-family: 'Nunito', sans-serif;
+		text-align: center;
+
+	}
+	#aboutusline{
+		width: 320px;
+		height:2px;
+		background-color:#ffffff;
+		margin-left:-23px;  
+		margin-top: 55px;
+		
+	}
+	#information img{
+		display: none;
+	}
+	#information ul{
+		margin-left: 15px;
+	}
+	#ourphilosophy{
+		margin-top: 0px;
+	}
+	/*start-gallery*/
+	.linea3{
+		width: 320px;
+	}
+	/*end-gallery*/
+	/*start emergency and services*/
+	#img{
+		display: none;
+	}
+	#linea4{
+		width: 320px;
+	}
+ /*start-faq*/
+    #linea5{
+    	width:100%;
+    }
+    #questions p{
+    	width: 300px;
+    }
+    #questions form{
+    	width: 300px;
+    }
+    #btn-faq{
+    	margin-left:85px; 
+    }
+    #contactus button{
+    	margin:auto;
+    	margin-top: 20px;
+    	margin-bottom: 10px;
+    }
+    #services img{
+    	width: 500px;
+    }
+    #preferences-appoiments{
+    	margin-left:-10px;
+    }
+    #days{
+    	margin-left:20px;
+    }
+    #jueves{
+	margin-left:0px;
+}
+#ourservices ul{
+	margin-top: 70px;
+	margin-left:-230px;
+}
+
+#jueves label {
+	margin-left:-18px; 
+}
+#date{
+	margin-left:-13px;
+}
+#contact-date input{
+	width: 200px; 
+}
+#contact-date label{
+	margin-left: 35px;
+}
+#hoandmi input{
+	width: 47px;
+}
+#right-contact textarea{
+	width: 274px;
+	height: 74px;
+	margin-left:-18px;
+}
+#right-contact button{
+	margin-left: 100px;
+}
+#answer input{
+	width: 300px
+}
+}
